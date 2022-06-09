@@ -4,7 +4,7 @@ import requests
 import urllib.parse
 import sys
 def send_msg(msg):
-    LINE_ACCESS_TOKEN="LRCy0QpDagq4F8bCbYlTZT2GnnXDWPxKxuZ3Rb30AIA"
+    LINE_ACCESS_TOKEN="hF4n9ndtL9yw2ip40tPF7iPulbrkypL4KFxs0DSsd9NS"
     url = "https://notify-api.line.me/api/notify"
     file = {'imageFile':open('./upload.jpg','rb')}
     data = ({
